@@ -1137,6 +1137,8 @@
 				endYear,
 				this.o.beforeShowCentury
 			);
+      
+      this._trigger('rendered', this.viewDate);
 		},
 
 		updateNavArrows: function(){
